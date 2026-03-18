@@ -6,52 +6,37 @@ The study was aimed to identify genetic variants associated with comb traits in 
 
 This project involves processing genotype data, performing quality control, and applying statistical association models to detect significant SNPs. Post-GWAS analyses are to be conducted to interpret the functional relevance of identified variants and understand their contribution to phenotypic variation.
 
-# Analysis to Perform:
-## 1. Genotype Data Preprocessing:
+# Analyses Performed
+## 1. Genotype Data Preprocessing
   > Genotype data was formatted and prepared for analysis by applying filtering criteria to remove SNPs and samples with high missingness, low minor allele frequency (MAF), to retain high quality data.
 
-## 2. Quality Control (QC):
+## 2. Quality Control (QC)
  > Quality control was performed to ensure data reliability by filtering low-quality samples and variants, identifying outliers, and assessing population structure to minimize confounding effects in the analysis
 
-3. Genome-Wide Association Study (GWAS):
+## 3. Genome-Wide Association Study (GWAS)
  > Association testing was performed between SNPs and comb traits using statistical models. Linear mixed models was implemented to account for population stratification. Significantly associated genome loci were identified.
 
-4. Post-GWAS Analysis:
+## 4. Data Integration and Interpretation
+ > GWAS results was integrated with genome annotations using biological evidences. Candidate genes and pathways were identified that are associated with the genes. The results were interpreted in the context of poultry genetics and breeding.
 
-Fine-mapping of significant regions to pinpoint candidate variants.
-Annotation of SNPs to identify nearby genes and regulatory elements.
-Functional interpretation of genetic variants influencing comb traits.
+## 5. Visualization and Results
+ > Generation of Manhattan plots and QQ plots for GWAS results to visualise significant loci and genomic regions. Summary statistics were also plotted.
 
-5. Data Integration and Interpretation:
+## 6. Reproducibility and Workflow Management
+ > Workflow were documented in a structured scripts for reproducible analysis and for transparency, ensuring consistency in data processing and analysis steps.
 
-Integration of GWAS results with biological knowledge and genomic annotations.
-Identification of candidate genes and pathways associated with the phenotype.
-Interpretation of results in the context of poultry genetics and breeding.
+ > Large genotype files (e.g., .ped, .raw) are excluded from this repository due to file size limitations. Only scripts, workflows, and processed summary results are included. Raw data can be made available upon reasonable request.
 
-6. Visualization and Results:
+## Directory Tree
+ <img width="383" height="286" alt="image" src="https://github.com/user-attachments/assets/af3093d3-32e1-44a3-b616-66fe0190d3e6" />
 
-Generation of Manhattan plots and QQ plots for GWAS results.
-Visualization of significant loci and genomic regions.
-Summary statistics and graphical representation of findings.
+## Author
+ ## Prasanna Venkataramanan
 
-7. Reproducibility and Workflow Management:
-
-Structured pipeline for reproducible analysis.
-Use of scripts and documented workflows for transparency.
-Ensuring consistency in data processing and analysis steps.
-
-⚠️ Data Availability:
-
-Large genotype files (e.g., .ped, .raw) are excluded from this repository due to file size limitations.
-Only scripts, workflows, and processed summary results are included.
-Raw data can be made available upon reasonable request.
-
-Author:
-
-Prasanna Venkat
-Bioinformatics | Genomics | GWAS Analysis
-
-📄 License:
+## License
 
 This project is intended for academic and research purposes only.
 
+## Acknowledgements
+> Uppsala University for providing the academic environment and resources to support this research.. 
+> I would like to thank [Dr. Martin Johnsson](https://github.com/mrtnj) for guidance and support throughout this project.
