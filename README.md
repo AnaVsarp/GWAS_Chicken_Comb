@@ -8,16 +8,13 @@ This project involves processing genotype data, performing quality control, and 
 
 # Analysis to Perform:
 ## 1. Genotype Data Preprocessing:
-  > Genotype data was formatted and prepared for downstream analysis by applying filtering criteria to remove SNPs and samples with high missingness, low minor allele frequency (MAF), and poor quality metrics.
+  > Genotype data was formatted and prepared for analysis by applying filtering criteria to remove SNPs and samples with high missingness, low minor allele frequency (MAF), to retain high quality data.
 
 ## 2. Quality Control (QC):
- > Quality control was performed to ensure data reliability by filtering low-quality samples and variants, identifying outliers, and assessing population structure to minimize confounding effects in the analysis.
+ > Quality control was performed to ensure data reliability by filtering low-quality samples and variants, identifying outliers, and assessing population structure to minimize confounding effects in the analysis
 
 3. Genome-Wide Association Study (GWAS):
-
-Association testing between SNPs and comb traits using statistical models.
-Implementation of linear or mixed models to account for population stratification.
-Identification of significantly associated genomic loci.
+ > Association testing was performed between SNPs and comb traits using statistical models. Linear mixed models was implemented to account for population stratification. Significantly associated genome loci were identified.
 
 4. Post-GWAS Analysis:
 
