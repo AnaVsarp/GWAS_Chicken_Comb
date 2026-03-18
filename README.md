@@ -31,12 +31,13 @@ This project involves processing genotype data, performing quality control, and 
  <img width="383" height="286" alt="image" src="https://github.com/user-attachments/assets/af3093d3-32e1-44a3-b616-66fe0190d3e6" />
 
 ## Author
- ## Prasanna Venkataramanan
+ ### Prasanna Venkataramanan
 
 ## License
 
 This project is intended for academic and research purposes only.
 
 ## Acknowledgements
-> Uppsala University for providing the academic environment and resources to support this research.. 
-> I would like to thank [Dr. Martin Johnsson](https://github.com/mrtnj) for guidance and support throughout this project.
+  1. I would like to thank Uppsala University for providing the academic environment and resources to support this research.
+  2. I would like to thank my project supervisor [Dr. Martin Johnsson](https://github.com/mrtnj) for guidance and support throughout this project.
+
