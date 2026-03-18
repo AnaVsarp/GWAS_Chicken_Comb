@@ -1,0 +1,14 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --assoc A:/Books/SEM 4/Thesis/GWAS/Script/genotype_qc
+  --file A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotypes
+
+Hostname: VISION
+Working directory: A:\Books\SEM 4\Thesis\GWAS\Script\Work_Data
+Start time: Fri Jun 21 12:12:20 2024
+
+Error: Invalid --assoc parameter 'A:/Books/SEM
+4/Thesis/GWAS/Script/genotype_qc'.
+For more information, try "plink --help <flag name>" or "plink --help | more".
+
+End time: Fri Jun 21 12:12:20 2024

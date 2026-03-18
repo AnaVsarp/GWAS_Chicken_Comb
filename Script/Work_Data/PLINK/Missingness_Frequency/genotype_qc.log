@@ -1,0 +1,53 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr
+  --chr-set 40
+  --file A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotypes
+  --freq
+  --geno 0.05
+  --hwe 1e-6
+  --maf 0.05
+  --make-bed
+  --mind 0.1
+  --missing
+  --out A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotype_qc
+  --recode A
+
+Hostname: VISION
+Working directory: A:\Books\SEM 4\Thesis\GWAS\Script\Work_Data
+Start time: Thu May 30 15:17:21 2024
+
+Random number seed: 1717075041
+15720 MB RAM detected; reserving 7860 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (57275 variants, 843 samples).
+--file: A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotype_qc-temporary.bed +
+A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotype_qc-temporary.bim +
+A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotype_qc-temporary.fam written.
+57275 variants loaded from .bim file.
+843 samples (0 males, 843 females) loaded from .fam.
+843 phenotype values loaded from .fam.
+0 samples removed due to missing genotype data (--mind).
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 843 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.989822.
+--freq: Allele frequencies (founders only) written to A:/Books/SEM
+4/Thesis/GWAS/Script/Work_Data/genotype_qc.frq .
+--missing: Sample missing data report written to A:/Books/SEM
+4/Thesis/GWAS/Script/Work_Data/genotype_qc.imiss, and variant-based missing
+data report written to A:/Books/SEM
+4/Thesis/GWAS/Script/Work_Data/genotype_qc.lmiss.
+943 variants removed due to missing genotype data (--geno).
+--hwe: 17248 variants removed due to Hardy-Weinberg exact test.
+26181 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+12903 variants and 843 samples pass filters and QC.
+Among remaining phenotypes, 0 are cases and 843 are controls.
+--make-bed to A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotype_qc.bed +
+A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotype_qc.bim + A:/Books/SEM
+4/Thesis/GWAS/Script/Work_Data/genotype_qc.fam ... done.
+--recode A to A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/genotype_qc.raw ...
+done.
+
+End time: Thu May 30 15:17:24 2024

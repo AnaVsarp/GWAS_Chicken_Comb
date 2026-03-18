@@ -1,0 +1,29 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/QC_Files/genotype_qc
+  --chr-set 40
+  --out A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/QC_Files/genotype_qc_pca
+  --pca
+
+Hostname: VISION
+Working directory: A:\Books\SEM 4\Thesis\GWAS\Script\Work_Data
+Start time: Fri Jun 21 12:12:02 2024
+
+Random number seed: 1718964722
+15720 MB RAM detected; reserving 7860 MB for main workspace.
+12903 variants loaded from .bim file.
+843 samples (0 males, 843 females) loaded from .fam.
+843 phenotype values loaded from .fam.
+Using up to 15 threads (change this with --threads).
+Before main variant filters, 843 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999681.
+12903 variants and 843 samples pass filters and QC.
+Among remaining phenotypes, 0 are cases and 843 are controls.
+Relationship matrix calculation complete.
+--pca: Results saved to A:/Books/SEM
+4/Thesis/GWAS/Script/Work_Data/QC_Files/genotype_qc_pca.eigenval and
+A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/QC_Files/genotype_qc_pca.eigenvec .
+
+End time: Fri Jun 21 12:12:03 2024

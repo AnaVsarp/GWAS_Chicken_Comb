@@ -1,0 +1,41 @@
+Hi!
+
+Here are a few examples of Plink commands that may be useful for QC:
+
+Missingness report
+
+This produces a report of missing values in genotypes:
+
+plink \
+--allow-extra-chr \
+--chr-set 40 \
+--file input_prefix \
+--out output_prefix \
+--missing
+The --allow-extra-chr and --chr-set flags are needed to handle chicken data, because they have more chromosomes than human data.
+
+Note that the --file and --out flags take file prefixes, not full file names. This is beause plink formats often consist of multiple files with different suffixes, that all need to be present. If your plink files are called genotypes.ped and genotypes.map, you should give the input prefix  --file genotypes.
+
+
+Allele frequency report
+
+plink \
+--allow-extra-chr \
+--chr-set 40 \
+--file input_prefix \
+--out output_prefix \
+--freq
+
+Similarly, this command produces a report of SNP frequencies.
+
+
+Conversion to raw text file format, with filtering
+
+plink \
+--allow-extra-chr \
+--chr-set 40 \
+--file input_prefix \
+--out output_prefix \
+--maf 0.01 \
+--recodeA
+This is an example of a command (--recodeA flag) that writes out raw genotype file format (which will be useful for running GWAS with hglm). It also uses minor allele frequency filtering with the --maf flag.

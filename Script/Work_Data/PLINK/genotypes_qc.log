@@ -1,0 +1,41 @@
+PLINK v1.90b7.2 64-bit (11 Dec 2023)
+Options in effect:
+  --allow-extra-chr
+  --chr-set 40
+  --file A:/Books/SEM 4/Thesis/GWAS/Script/Work_Data/Input_files/genotypes
+  --geno 0.05
+  --hwe 1e-6
+  --maf 0.01
+  --make-bed
+  --mind 0.05
+  --out A:/Books/SEM 4/GWAS_1/genotypes_qc
+
+Hostname: VISION
+Working directory: A:\Books\SEM 4\Thesis\GWAS\Script\Work_Data
+Start time: Fri Aug 16 12:52:27 2024
+
+Random number seed: 1723805547
+15720 MB RAM detected; reserving 7860 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (57275 variants, 843 samples).
+--file: A:/Books/SEM 4/GWAS_1/genotypes_qc-temporary.bed + A:/Books/SEM
+4/GWAS_1/genotypes_qc-temporary.bim + A:/Books/SEM
+4/GWAS_1/genotypes_qc-temporary.fam written.
+57275 variants loaded from .bim file.
+843 samples (0 males, 843 females) loaded from .fam.
+843 phenotype values loaded from .fam.
+0 samples removed due to missing genotype data (--mind).
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 843 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.989822.
+943 variants removed due to missing genotype data (--geno).
+--hwe: 17248 variants removed due to Hardy-Weinberg exact test.
+23461 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+15623 variants and 843 samples pass filters and QC.
+Among remaining phenotypes, 0 are cases and 843 are controls.
+--make-bed to A:/Books/SEM 4/GWAS_1/genotypes_qc.bed + A:/Books/SEM
+4/GWAS_1/genotypes_qc.bim + A:/Books/SEM 4/GWAS_1/genotypes_qc.fam ... done.
+
+End time: Fri Aug 16 12:52:29 2024

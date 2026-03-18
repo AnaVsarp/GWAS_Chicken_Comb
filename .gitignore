@@ -1,0 +1,9 @@
+*.ped
+*.raw
+*.bed
+*.bim
+*.fam
+*.vcf
+*.gz
+data/
+results/
